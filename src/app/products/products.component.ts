@@ -10,9 +10,9 @@ export class ProductsComponent implements OnInit {
   products: any;
   constructor(private http: HttpClient) {}
   ngOnInit() {
-    this.getPost();
+    this.getProducts();
   }
-  getPost() {
+  getProducts() {
     this.http.get('https://fakestoreapi.com/products').subscribe((res) => {
       this.products = res;
     });

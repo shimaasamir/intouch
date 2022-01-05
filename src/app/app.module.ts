@@ -7,6 +7,9 @@ import { ProductsComponent } from './products/products.component';
 import { ProductCardComponent } from './products/product-card/product-card.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CartComponent } from './cart/cart.component';
+import { CartCardComponent } from './cart/cart-card/cart-card.component';
+import { CartSummaryComponent } from './cart/cart-summary/cart-summary.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsComponent,
     ProductCardComponent,
     HeaderComponent,
+    CartComponent,
+    CartCardComponent,
+    CartSummaryComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
