@@ -1,0 +1,24 @@
+$primary-color: #327fba;
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 300px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav > .nav-item > .nav-link {
+    padding: 10px 15px;
+  }
+  .navbar-brand {
+    width: 200px;
+  }
+}
